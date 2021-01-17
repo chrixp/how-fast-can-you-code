@@ -80,6 +80,7 @@ export default {
             this.wps = 0;
             this.coding = true;
             this.firstRound = true;
+            this.wordsTyped = 0;
             this.typedCode = '';
             this.generatedCode = startingCode
             this.time = startingTime
