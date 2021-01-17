@@ -118,8 +118,6 @@ const person3 = {name: 'nicholas', height: 66};`,
 `let response = await fetch('coffee.jpg');`,
 `async function timeTest() {
   await timeoutPromise(3000);
-  await timeoutPromise(3000);
-  await timeoutPromise(3000);
 }`,
 `const myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';`,
@@ -302,5 +300,27 @@ switch (x) {
 `var x;
 try {
   x = y + 1;
-}`
+}`,
+'window.location.href = "google.com"',
+`setTimeout(() => {
+  doWork();
+});`,
+`setInterval(() => { timer -= 1 }, 200);`,
+`console.log(\`\${kilometers} kilometers is equal to \${miles} miles.\`);`,
+`const num = prompt('Enter a positive number: ');`,
+`if( number1 % i == 0 && number2 % i == 0) {
+  hcf = i;
+}`,
+`while(i <= number) {
+  sum += i;
+  i++;
+}`,
+`const lowerNumber = parseInt(prompt('Enter lower number: '));
+const higherNumber = parseInt(prompt('Enter higher number: '));`,
+`for (let j = 2; j < i; j++) {
+  if (i % j == 0) {
+    flag = 1;
+    break;
+  }
+}`,
 ]
